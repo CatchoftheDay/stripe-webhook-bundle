@@ -49,10 +49,10 @@ In YAML:
 # app/config/routing.yml
 mrp_stripe_webhook:
 	resources: "@MRPStripeWebhookBundle/Resources/config/routing/routing.yml"
-	prefix: /stripe-webhooks
+	prefix: /
 ```
 
-### Webhooks ###
+## Webhooks ##
 This bundle receives webhooks at "/stripe-webhooks" and dispatches the event which you can listen for.
 
 For example: the 'charge.succeeded' event is dispatched as 'mrp_stripe_webhook.charge.succeeded'
