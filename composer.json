@@ -1,0 +1,32 @@
+{
+    "name": "mrp/stripe-webhook-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony 2 bundle for handling Stripe Webhooks.",
+    "keywords": ["stripe", "webhooks"],
+    "homepage": "http://github.com/mathewpeterson/StripeWebhookBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathew R. Peterson",
+            "email": "mathewpeterson@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/mathewpeterson/StripeWebhookBundle"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "require-dev": {
+        "twig/twig": "*",
+        "doctrine/doctrine-bundle": "1.0.*",
+        "symfony/yaml": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": { "MRP\\StripeWebhookBundle": "" }
+    }
+}
