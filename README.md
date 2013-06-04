@@ -49,6 +49,7 @@ In YAML:
 # app/config/routing.yml
 mrp_stripe_webhook:
 	resources: "@MRPStripeWebhookBundle/Resources/config/routing/routing.yml"
+	prefix: /stripe-webhooks
 ```
 
 ### Webhooks ###
