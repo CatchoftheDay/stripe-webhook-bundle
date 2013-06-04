@@ -36,7 +36,7 @@ public function registerBundles()
 {
 	$bundles = array(
 		// …
-		new MRR\StripeWebhookBundle\MRPStripeWebhookBundle()
+		new MRP\StripeWebhookBundle\MRPStripeWebhookBundle()
 	);
 }
 ```
