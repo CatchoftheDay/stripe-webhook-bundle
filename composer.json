@@ -28,5 +28,6 @@
     },
     "autoload": {
         "psr-0": { "MRP\\StripeWebhookBundle": "" }
-    }
+    },
+    "target-dir": "MRP/StripeWebhookBundle"
 }
