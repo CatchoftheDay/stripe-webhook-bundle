@@ -1,9 +1,9 @@
 {
-    "name": "mrp/stripe-webhook-bundle",
+    "name": "catch-of-the-day/stripe-webhook-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony 2 bundle for handling Stripe Webhooks.",
     "keywords": ["stripe", "webhooks"],
-    "homepage": "http://github.com/mathewpeterson/StripeWebhookBundle",
+    "homepage": "https://github.com/CatchoftheDay/stripe-webhook-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "http://github.com/mathewpeterson/StripeWebhookBundle"
+            "url": "https://github.com/CatchoftheDay/stripe-webhook-bundle"
         }
     ],
     "require": {
