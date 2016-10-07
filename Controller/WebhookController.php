@@ -3,11 +3,12 @@
 namespace MRP\StripeWebhookBundle\Controller;
 
 use MRP\StripeWebhookBundle\Event\StripeWebhookEvent;
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class WebhookController
+class WebhookController implements ContainerAwareInterface
 {
     use ContainerAwareTrait;
 	public function indexAction(Request $request)
